@@ -10,4 +10,4 @@ old2 = hookfunction(game.HttpGet, function(inst, url, state)
   return old2(inst, url, state)
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REALDarianDev/OwlHub/main/IGNORE!!!.txt"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REALDarianDev/OwlHub/main/IGNORE!!!.lua"))();
