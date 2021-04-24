@@ -9,5 +9,10 @@ old2 = hookfunction(game.HttpGet, function(inst, url, state)
   url = url:gsub('CriShoux', 'SiLeNSwOrD')
   return old2(inst, url, state)
 end)
+game.StarterGui:SetCore("SendNotification", {
+Title = "OwlHub"; 
+Text = "Thanks for using DarianDevs NEW Owlhub!"; 
+Duration = 5; 
+})
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REALDarianDev/OwlHub/main/IGNORE!!!.lua"))();
